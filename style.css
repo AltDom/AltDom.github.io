@@ -21,6 +21,12 @@ hr {
     background-color: #333; 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(70%);
+}
+
 .image, .icons {
     display: flex;
     justify-content: center;
@@ -28,8 +34,12 @@ hr {
 
 .icons i {
     padding: 2px;
+    color: black;
 }
 
+.icons i:visited {
+    color: black;
+}
 
 .icons i:hover, ul li:hover {
     color: cadetblue;
