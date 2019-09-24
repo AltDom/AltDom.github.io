@@ -15,7 +15,13 @@ ul li {
     padding: 10px
 }
 
-img, .icons {
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333; 
+}
+
+.image, .icons {
     display: flex;
     justify-content: center;
 }
@@ -24,9 +30,6 @@ img, .icons {
     padding: 2px;
 }
 
-hr {
-    height: 0.25px
-}
 
 .icons i:hover, ul li:hover {
     color: cadetblue;
